@@ -1,0 +1,100 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/05/dragon-ball-super-super-hero-ultima-cinta-akira-toriyama-supera-broly-convierte-pelicula-taquillera-serie-3035658.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para los formularios */
+form {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f2f2f2;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.btn-primary-custom {
+    background-color: #007bff;
+}
+
+.btn-primary-custom:hover {
+    background-color: #0056b3;
+}
+
+.btn-info-custom {
+    background-color: #17a2b8;
+}
+
+.btn-info-custom:hover {
+    background-color: #117a8b;
+}
+
+.btn-danger-custom {
+    background-color: #dc3545;
+}
+
+.btn-danger-custom:hover {
+    background-color: #c82333;
+}
+
+/* Contenedor de resultados */
+#resultContent {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+pre {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
